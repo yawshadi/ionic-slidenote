@@ -1,0 +1,15 @@
+<ion-view view-title="SlideNote">
+  <ion-content>
+   <div class="list card">
+
+  <a href="#/app/read/{{item.id}}" class="item item-icon-left" ng-repeat='item in alldata'>
+    <i class="icon ion-clipboard"></i>
+   {{item.subject}}
+   <i style="font-size:small;font-style:italic;float:right"> {{item.messageDate}}</i>
+  </a>
+
+ 
+
+</div>
+  </ion-content>
+</ion-view>
